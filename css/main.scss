@@ -1,0 +1,10 @@
+@import "./body";
+.bg-container {
+	img {
+		// height: 100vh;
+		width: 100vw;
+	}
+	// width: 99vw;
+	// height: 99vh;
+	overflow: hidden;
+}
