@@ -1,0 +1,18 @@
+.card {
+	height: 20vh;
+	background: #eee;
+	opacity: 30%;
+	border-radius: 1rem;
+	margin: 0;
+
+	margin-inline: 1rem;
+	padding: 0;
+	h1 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+}

@@ -11,13 +11,14 @@ body {
 
 #heading #title {
   font-family: "Londrina Sketch";
+  width: 90vw;
   margin: 0;
   text-align: center;
-  width: 100%;
   color: #efefef;
   font-size: 4rem;
   font-style: italic;
   text-decoration: underline;
+  margin-inline: 5vw;
 }
 
 .bg-container {
@@ -26,4 +27,49 @@ body {
   background-size: cover;
   height: 100vh;
   width: 100vw;
+}
+
+.card {
+  height: 20vh;
+  background: #eee;
+  opacity: 30%;
+  border-radius: 1rem;
+  margin: 0;
+  margin-inline: 1rem;
+  padding: 0;
+}
+.card h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 845px) {
+  .grid {
+    grid-template-columns: 2fr 2fr 2fr;
+  }
+  .card:nth-child(2) {
+    grid-column: 3;
+  }
+  .card:nth-child(4) {
+    grid-column: 3;
+  }
+}
+@media (max-width: 844px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 500px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=main.css.map */
