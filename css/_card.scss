@@ -4,9 +4,13 @@
 	opacity: 30%;
 	border-radius: 1rem;
 	margin: 0;
-
 	margin-inline: 1rem;
 	padding: 0;
+
+	&:hover {
+		cursor: pointer;
+	}
+
 	h1 {
 		display: flex;
 		justify-content: center;
@@ -14,5 +18,10 @@
 		height: 100%;
 		margin: 0;
 		padding: 0;
+	}
+}
+@media (max-width: 430px) {
+	.card {
+		height: 18vh;
 	}
 }
