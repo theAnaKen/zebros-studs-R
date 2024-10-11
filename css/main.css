@@ -134,6 +134,10 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+.ip span {
+  overflow: scroll;
+}
+
 .bg-container {
   background-image: url(../assets/bg1.jpg);
   background-size: cover;
