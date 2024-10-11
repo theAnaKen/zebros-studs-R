@@ -131,10 +131,6 @@
   display: none !important;
 }
 
-.scroll {
-  overflow-y: scroll;
-}
-
 @media (min-width: 850px) {
   .grid_two_colums {
     display: grid;
