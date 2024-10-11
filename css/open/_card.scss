@@ -1,0 +1,47 @@
+.open {
+	height: 80vh;
+	width: 90vw;
+	margin-inline: auto;
+	margin-block-start: 5vh;
+	background-color: #eee;
+	opacity: 50%;
+	border-radius: 1em;
+	padding: 0.5rem;
+	text-align: center;
+	text-transform: capitalize;
+	overflow-y: scroll;
+
+	i {
+		position: absolute;
+		top: 8rem;
+		right: 5vw;
+		font-size: 1.5rem;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
+	h1 {
+		position: absolute;
+		top: 0;
+		font-family: Pacifico;
+		font-size: 3.5rem;
+		font-style: italic;
+		text-decoration: underline;
+	}
+	p {
+		font-family: poppins;
+		font-size: 1.5rem;
+		a {
+			color: #2a1b8f;
+			&:hover {
+				color: #000;
+			}
+		}
+	}
+	span {
+		h2 {
+			text-decoration: underline;
+		}
+	}
+}
