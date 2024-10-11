@@ -35,9 +35,12 @@
 		font-family: poppins;
 		font-size: 1.5rem;
 		a {
+			text-decoration: none;
+
 			color: #2a1b8f;
 			&:hover {
 				color: #000;
+				text-decoration: underline;
 			}
 		}
 	}
