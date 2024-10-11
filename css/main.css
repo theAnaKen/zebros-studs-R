@@ -143,9 +143,10 @@
 }
 
 .bg-container {
+  background-color: aqua;
   background-image: url(../assets/bg1.jpg);
   background-size: cover;
-  height: 100vh;
+  padding-block-end: 1em;
   width: 100vw;
 }
 
