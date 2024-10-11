@@ -95,7 +95,11 @@
   color: #000;
 }
 .open span h2 {
-  text-decoration: underline;
+  -webkit-text-decoration: underline red double;
+          text-decoration: underline red double;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-size: 2rem;
 }
 
 @media (max-width: 429px) {
