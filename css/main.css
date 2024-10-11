@@ -148,6 +148,10 @@
   cursor: pointer;
 }
 
+.cant_open {
+  pointer-events: none;
+}
+
 .bg-container {
   background-image: url(../assets/bg1.jpg);
   background-size: cover;
