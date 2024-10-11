@@ -53,5 +53,24 @@
 			position: absolute;
 			top: 4rem;
 		}
+		i {
+			position: absolute;
+			top: 12rem;
+			right: 1.5rem;
+		}
+	}
+
+	.bst {
+		h1 {
+			font-size: 3rem !important;
+			position: absolute !important;
+			top: 5rem !important;
+		}
+	}
+}
+@media (max-width: 371px) {
+	span {
+		position: relative;
+		top: 4rem;
 	}
 }
