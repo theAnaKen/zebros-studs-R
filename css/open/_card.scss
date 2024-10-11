@@ -22,8 +22,9 @@
 	}
 
 	h1 {
+		height: 4rem;
 		position: absolute;
-		top: 0;
+		top: -1rem;
 		font-family: Pacifico;
 		font-size: 3.5rem;
 		font-style: italic;
@@ -42,6 +43,15 @@
 	span {
 		h2 {
 			text-decoration: underline;
+		}
+	}
+}
+
+@media (max-width: 429px) {
+	.open {
+		h1 {
+			position: absolute;
+			top: 4rem;
 		}
 	}
 }
