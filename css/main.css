@@ -151,6 +151,10 @@
 .cant_open {
   pointer-events: none;
 }
+.cant_open::before {
+  content: "not added";
+  font-family: "Sixtyfour Convergence";
+}
 
 .bg-container {
   background-image: url(../assets/bg1.jpg);

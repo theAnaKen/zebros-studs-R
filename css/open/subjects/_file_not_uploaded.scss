@@ -1,3 +1,7 @@
 .cant_open {
 	pointer-events: none;
+	&::before {
+		content: "not added";
+		font-family: "Sixtyfour Convergence";
+	}
 }
