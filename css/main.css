@@ -53,6 +53,13 @@
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 429px) {
+  #home {
+    max-height: 75vh;
+    overflow: scroll;
+    margin-bottom: 1rem;
+  }
+}
 .open {
   height: 65vh;
   width: 90vw;
@@ -180,5 +187,4 @@ body {
   margin: 0;
   scroll-behavior: smooth;
   font-family: Montserrat;
-  overflow: hidden;
 }/*# sourceMappingURL=main.css.map */
