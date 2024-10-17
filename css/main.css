@@ -60,6 +60,18 @@
     margin-bottom: 1rem;
   }
 }
+.syllabus_span {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  flex-direction: column;
+  gap: 5vh;
+}
+.syllabus_span p {
+  margin: 0;
+}
+
 .open {
   height: 65vh;
   width: 90vw;

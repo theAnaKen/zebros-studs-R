@@ -1,0 +1,12 @@
+.syllabus_span {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	place-items: center;
+	flex-direction: column;
+	gap: 5vh;
+
+	p {
+		margin: 0;
+	}
+}
