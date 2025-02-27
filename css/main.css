@@ -124,6 +124,10 @@
   font-size: 2rem;
 }
 
+.dps {
+  color: hsl(142, 68%, 33%) !important;
+}
+
 @media (max-width: 429px) {
   .open h1 {
     position: absolute;
