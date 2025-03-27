@@ -108,24 +108,24 @@
   font-family: poppins;
   font-size: 1.5rem;
 }
+.open p .dps {
+  color: hsl(142, 68%, 33%);
+}
 .open p a {
   text-decoration: none;
-  color: #2a1b8f;
+  color: hsl(248, 68%, 33%);
 }
 .open p a:hover {
-  color: #000;
+  color: #d36be6;
+  text-shadow: -1px -1px 0 hsl(291, 68%, 33%), 1px -1px 0 hsl(291, 68%, 33%), -1px 1px 0 hsl(291, 68%, 33%), 1px 1px 0 hsl(291, 68%, 33%);
   text-decoration: underline;
 }
 .open span h2 {
-  -webkit-text-decoration: underline red double;
-          text-decoration: underline red double;
+  -webkit-text-decoration: underline #d36be6 double;
+          text-decoration: underline #d36be6 double;
   font-family: "Montserrat";
   font-style: italic;
   font-size: 2rem;
-}
-
-.dps {
-  color: hsl(142, 68%, 33%) !important;
 }
 
 @media (max-width: 429px) {

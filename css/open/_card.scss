@@ -1,9 +1,26 @@
+$main-color: #d36be6;
+$main-hue: 291;
+
+$bg-color: #eee;
+
+$saturation: 68%;
+$brightness: 33%;
+
+$list-hue: 248;
+$list-items: hsl($list-hue, $saturation, $brightness);
+
+$dps-hue: 142;
+$dps-color: hsl($dps-hue, $saturation, $brightness);
+
+$h2-underline: $main-color;
+$outline-color: hsl($main-hue, $saturation, $brightness);
+
 .open {
 	height: 65vh;
 	width: 90vw;
 	margin-inline: auto;
 	margin-block-start: 5vh;
-	background-color: #eee;
+	background-color: $bg-color;
 	opacity: 50%;
 	border-radius: 1em;
 	padding: 0.5rem;
@@ -32,30 +49,32 @@
 		text-decoration: underline;
 	}
 	p {
+		.dps {
+			color: $dps-color;
+		}
 		font-family: poppins;
 		font-size: 1.5rem;
 		a {
 			text-decoration: none;
 
-			color: #2a1b8f;
+			color: $list-items;
 			&:hover {
-				color: #000;
+				color: $main-color;
+				text-shadow: -1px -1px 0 $outline-color,
+					1px -1px 0 $outline-color, -1px 1px 0 $outline-color,
+					1px 1px 0 $outline-color;
 				text-decoration: underline;
 			}
 		}
 	}
 	span {
 		h2 {
-			text-decoration: underline red double;
+			text-decoration: underline $h2-underline double;
 			font-family: "Montserrat";
 			font-style: italic;
 			font-size: 2rem;
 		}
 	}
-}
-
-.dps {
-	color: hsl(142, 68%, 33%) !important;
 }
 
 @media (max-width: 429px) {
