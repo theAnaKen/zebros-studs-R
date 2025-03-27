@@ -1,0 +1,16 @@
+$main-color: #d36be6;
+$main-hue: 291;
+
+$bg-color: #eee;
+
+$saturation: 68%;
+$brightness: 33%;
+
+$list-hue: 248;
+$list-items: hsl($list-hue, $saturation, $brightness);
+
+$dps-hue: 142;
+$dps-color: hsl($dps-hue, $saturation, $brightness);
+
+$h2-underline: $main-color;
+$outline-color: hsl($main-hue, $saturation, $brightness);
